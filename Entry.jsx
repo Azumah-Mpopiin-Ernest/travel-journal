@@ -7,7 +7,7 @@ export default function Entry(props){
             <img className="fuji-png" src={props.img.src} alt={props.img.alt} />
             <div className="country-and-description-container">
                 <span className="marker-googlemap-container">
-                <img src="marker.png" alt="marker image" />
+                <p></p>
                 <p>{props.country}</p>
                 <small>
                     <a href={props.googleMapsLink} target="blank">View on google maps</a>
@@ -22,4 +22,5 @@ export default function Entry(props){
     )
 
 }
+
 
