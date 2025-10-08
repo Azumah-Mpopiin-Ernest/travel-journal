@@ -3,7 +3,7 @@ export default function Header(){
     return(
         <header>
         <nav>
-            <img src="globe.png" alt="globe png" />
+            <p></p>
             <span>My travel journal</span>
         </nav>
     </header>
@@ -11,4 +11,5 @@ export default function Header(){
     
 
 }
+
 
