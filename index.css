@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+}
+
+header{
+  background-color: rgb(167, 226, 58);
+  padding: 20px;
+  box-shadow: 0px 0px 4px;
+  width: 100%;
+}
+
+header nav img{
+  width: 30px;
+  margin-right: 8px;
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: rgb(231, 44, 44);
+}
+
+.fuji-png{
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.first-country-container{
+  display: flex;
+  align-items: center;
+  padding: 50px 30px;
+  gap: 20px;
+  margin: 0;
+}
+
+.marker-googlemap-container{
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.marker-googlemap-container img{
+  width: 10px;
+}
+
+.marker-googlemap-container p{
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.country-and-description-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+}
+
+.country-and-description-container .p2{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.country-and-description-container small a{
+  color: rgb(128, 131, 134);
+}
+
+.country-and-description-container h2{
+  font-family: "Poppins",sans-serif;
+  
+}
+
+.country-and-description-container .p1{
+  font-family: "Inter",sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.greetings{
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
